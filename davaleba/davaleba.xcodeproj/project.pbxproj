@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049A52AC2BA6E37D00A4FDDC /* davalebaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A52AB2BA6E37D00A4FDDC /* davalebaApp.swift */; };
+		049A52AE2BA6E37D00A4FDDC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A52AD2BA6E37D00A4FDDC /* ContentView.swift */; };
+		049A52B02BA6E38000A4FDDC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049A52AF2BA6E38000A4FDDC /* Assets.xcassets */; };
+		049A52B32BA6E38000A4FDDC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049A52B22BA6E38000A4FDDC /* Preview Assets.xcassets */; };
+		049A52BE2BA6E38000A4FDDC /* davalebaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A52BD2BA6E38000A4FDDC /* davalebaTests.swift */; };
+		049A52C82BA6E38100A4FDDC /* davalebaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A52C72BA6E38100A4FDDC /* davalebaUITests.swift */; };
+		049A52CA2BA6E38100A4FDDC /* davalebaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A52C92BA6E38100A4FDDC /* davalebaUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		049A52BA2BA6E38000A4FDDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049A52A02BA6E37D00A4FDDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049A52A72BA6E37D00A4FDDC;
+			remoteInfo = davaleba;
+		};
+		049A52C42BA6E38000A4FDDC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 049A52A02BA6E37D00A4FDDC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 049A52A72BA6E37D00A4FDDC;
+			remoteInfo = davaleba;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		049A52A82BA6E37D00A4FDDC /* davaleba.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = davaleba.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		049A52AB2BA6E37D00A4FDDC /* davalebaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = davalebaApp.swift; sourceTree = "<group>"; };
+		049A52AD2BA6E37D00A4FDDC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		049A52AF2BA6E38000A4FDDC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049A52B22BA6E38000A4FDDC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		049A52B42BA6E38000A4FDDC /* davaleba.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = davaleba.entitlements; sourceTree = "<group>"; };
+		049A52B92BA6E38000A4FDDC /* davalebaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = davalebaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049A52BD2BA6E38000A4FDDC /* davalebaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = davalebaTests.swift; sourceTree = "<group>"; };
+		049A52C32BA6E38000A4FDDC /* davalebaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = davalebaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		049A52C72BA6E38100A4FDDC /* davalebaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = davalebaUITests.swift; sourceTree = "<group>"; };
+		049A52C92BA6E38100A4FDDC /* davalebaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = davalebaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049A52A52BA6E37D00A4FDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049A52B62BA6E38000A4FDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049A52C02BA6E38000A4FDDC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049A529F2BA6E37D00A4FDDC = {
+			isa = PBXGroup;
+			children = (
+				049A52AA2BA6E37D00A4FDDC /* davaleba */,
+				049A52BC2BA6E38000A4FDDC /* davalebaTests */,
+				049A52C62BA6E38100A4FDDC /* davalebaUITests */,
+				049A52A92BA6E37D00A4FDDC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		049A52A92BA6E37D00A4FDDC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049A52A82BA6E37D00A4FDDC /* davaleba.app */,
+				049A52B92BA6E38000A4FDDC /* davalebaTests.xctest */,
+				049A52C32BA6E38000A4FDDC /* davalebaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049A52AA2BA6E37D00A4FDDC /* davaleba */ = {
+			isa = PBXGroup;
+			children = (
+				049A52AB2BA6E37D00A4FDDC /* davalebaApp.swift */,
+				049A52AD2BA6E37D00A4FDDC /* ContentView.swift */,
+				049A52AF2BA6E38000A4FDDC /* Assets.xcassets */,
+				049A52B42BA6E38000A4FDDC /* davaleba.entitlements */,
+				049A52B12BA6E38000A4FDDC /* Preview Content */,
+			);
+			path = davaleba;
+			sourceTree = "<group>";
+		};
+		049A52B12BA6E38000A4FDDC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				049A52B22BA6E38000A4FDDC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		049A52BC2BA6E38000A4FDDC /* davalebaTests */ = {
+			isa = PBXGroup;
+			children = (
+				049A52BD2BA6E38000A4FDDC /* davalebaTests.swift */,
+			);
+			path = davalebaTests;
+			sourceTree = "<group>";
+		};
+		049A52C62BA6E38100A4FDDC /* davalebaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				049A52C72BA6E38100A4FDDC /* davalebaUITests.swift */,
+				049A52C92BA6E38100A4FDDC /* davalebaUITestsLaunchTests.swift */,
+			);
+			path = davalebaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049A52A72BA6E37D00A4FDDC /* davaleba */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049A52CD2BA6E38100A4FDDC /* Build configuration list for PBXNativeTarget "davaleba" */;
+			buildPhases = (
+				049A52A42BA6E37D00A4FDDC /* Sources */,
+				049A52A52BA6E37D00A4FDDC /* Frameworks */,
+				049A52A62BA6E37D00A4FDDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = davaleba;
+			productName = davaleba;
+			productReference = 049A52A82BA6E37D00A4FDDC /* davaleba.app */;
+			productType = "com.apple.product-type.application";
+		};
+		049A52B82BA6E38000A4FDDC /* davalebaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049A52D02BA6E38100A4FDDC /* Build configuration list for PBXNativeTarget "davalebaTests" */;
+			buildPhases = (
+				049A52B52BA6E38000A4FDDC /* Sources */,
+				049A52B62BA6E38000A4FDDC /* Frameworks */,
+				049A52B72BA6E38000A4FDDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049A52BB2BA6E38000A4FDDC /* PBXTargetDependency */,
+			);
+			name = davalebaTests;
+			productName = davalebaTests;
+			productReference = 049A52B92BA6E38000A4FDDC /* davalebaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		049A52C22BA6E38000A4FDDC /* davalebaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049A52D32BA6E38100A4FDDC /* Build configuration list for PBXNativeTarget "davalebaUITests" */;
+			buildPhases = (
+				049A52BF2BA6E38000A4FDDC /* Sources */,
+				049A52C02BA6E38000A4FDDC /* Frameworks */,
+				049A52C12BA6E38000A4FDDC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				049A52C52BA6E38000A4FDDC /* PBXTargetDependency */,
+			);
+			name = davalebaUITests;
+			productName = davalebaUITests;
+			productReference = 049A52C32BA6E38000A4FDDC /* davalebaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049A52A02BA6E37D00A4FDDC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					049A52A72BA6E37D00A4FDDC = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					049A52B82BA6E38000A4FDDC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 049A52A72BA6E37D00A4FDDC;
+					};
+					049A52C22BA6E38000A4FDDC = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 049A52A72BA6E37D00A4FDDC;
+					};
+				};
+			};
+			buildConfigurationList = 049A52A32BA6E37D00A4FDDC /* Build configuration list for PBXProject "davaleba" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 049A529F2BA6E37D00A4FDDC;
+			productRefGroup = 049A52A92BA6E37D00A4FDDC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049A52A72BA6E37D00A4FDDC /* davaleba */,
+				049A52B82BA6E38000A4FDDC /* davalebaTests */,
+				049A52C22BA6E38000A4FDDC /* davalebaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049A52A62BA6E37D00A4FDDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A52B32BA6E38000A4FDDC /* Preview Assets.xcassets in Resources */,
+				049A52B02BA6E38000A4FDDC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049A52B72BA6E38000A4FDDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049A52C12BA6E38000A4FDDC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049A52A42BA6E37D00A4FDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A52AE2BA6E37D00A4FDDC /* ContentView.swift in Sources */,
+				049A52AC2BA6E37D00A4FDDC /* davalebaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049A52B52BA6E38000A4FDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A52BE2BA6E38000A4FDDC /* davalebaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		049A52BF2BA6E38000A4FDDC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A52CA2BA6E38100A4FDDC /* davalebaUITestsLaunchTests.swift in Sources */,
+				049A52C82BA6E38100A4FDDC /* davalebaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		049A52BB2BA6E38000A4FDDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049A52A72BA6E37D00A4FDDC /* davaleba */;
+			targetProxy = 049A52BA2BA6E38000A4FDDC /* PBXContainerItemProxy */;
+		};
+		049A52C52BA6E38000A4FDDC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 049A52A72BA6E37D00A4FDDC /* davaleba */;
+			targetProxy = 049A52C42BA6E38000A4FDDC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		049A52CB2BA6E38100A4FDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		049A52CC2BA6E38100A4FDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		049A52CE2BA6E38100A4FDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = davaleba/davaleba.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"davaleba/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = b.davaleba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		049A52CF2BA6E38100A4FDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = davaleba/davaleba.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"davaleba/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = b.davaleba;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		049A52D12BA6E38100A4FDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = b.davalebaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/davaleba.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/davaleba";
+			};
+			name = Debug;
+		};
+		049A52D22BA6E38100A4FDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = b.davalebaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/davaleba.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/davaleba";
+			};
+			name = Release;
+		};
+		049A52D42BA6E38100A4FDDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = b.davalebaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = davaleba;
+			};
+			name = Debug;
+		};
+		049A52D52BA6E38100A4FDDC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = b.davalebaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = davaleba;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049A52A32BA6E37D00A4FDDC /* Build configuration list for PBXProject "davaleba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049A52CB2BA6E38100A4FDDC /* Debug */,
+				049A52CC2BA6E38100A4FDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049A52CD2BA6E38100A4FDDC /* Build configuration list for PBXNativeTarget "davaleba" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049A52CE2BA6E38100A4FDDC /* Debug */,
+				049A52CF2BA6E38100A4FDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049A52D02BA6E38100A4FDDC /* Build configuration list for PBXNativeTarget "davalebaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049A52D12BA6E38100A4FDDC /* Debug */,
+				049A52D22BA6E38100A4FDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		049A52D32BA6E38100A4FDDC /* Build configuration list for PBXNativeTarget "davalebaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049A52D42BA6E38100A4FDDC /* Debug */,
+				049A52D52BA6E38100A4FDDC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049A52A02BA6E37D00A4FDDC /* Project object */;
+}
